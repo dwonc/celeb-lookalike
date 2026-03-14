@@ -1,0 +1,2 @@
+-r requirements.txt
+icrawler>=0.6.7
