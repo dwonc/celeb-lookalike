@@ -2,6 +2,7 @@ __pycache__/
 *.pyc
 .env
 embeddings/*.pkl
+models/*.onnx
 *.egg-info/
 dist/
 build/
