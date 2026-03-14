@@ -11,8 +11,8 @@ CELEB_DIR = os.path.join(BASE_DIR, "celebrities")
 EMBED_DIR = os.path.join(BASE_DIR, "embeddings")
 CACHE_FILE = os.path.join(EMBED_DIR, "celeb_embeddings.pkl")
 
-# 사용 모델
-MODEL_NAME = "VGG-Face"
+# 사용 모델 (Facenet - PyTorch 기반, Streamlit Cloud 메모리 절약)
+MODEL_NAME = "Facenet"
 DETECTOR_BACKEND = "opencv"
 
 
